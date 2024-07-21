@@ -13,6 +13,10 @@
 /obj/structure/table/wood,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"fj" = (
+/obj/structure/closet/secure_closet/bar,
+/turf/open/floor/wood,
+/area/space)
 "hT" = (
 /obj/structure/table/wood,
 /turf/open/floor/iron/cafeteria,
@@ -25,11 +29,22 @@
 /obj/machinery/smartfridge,
 /turf/open/floor/iron/dark,
 /area/space)
+"kC" = (
+/obj/structure/table,
+/obj/machinery/chem_dispenser/drinks{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/space)
 "kE" = (
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/space)
 "lB" = (
 /turf/open/floor/iron/dark,
+/area/space)
+"lM" = (
+/obj/structure/chair/stool/bar/directional/east,
+/turf/open/floor/wood/large,
 /area/space)
 "lN" = (
 /obj/machinery/disposal/bin{
@@ -37,6 +52,14 @@
 	pixel_y = -2
 	},
 /turf/open/floor/grass,
+/area/space)
+"mG" = (
+/obj/machinery/vending/wardrobe/bar_wardrobe,
+/turf/open/floor/wood,
+/area/space)
+"oi" = (
+/obj/machinery/food_cart,
+/turf/open/floor/iron/cafeteria,
 /area/space)
 "oG" = (
 /obj/machinery/biogenerator,
@@ -48,6 +71,10 @@
 	name = "SapMaster XP"
 	},
 /turf/open/floor/grass,
+/area/space)
+"rc" = (
+/obj/machinery/icecream_vat,
+/turf/open/floor/iron/cafeteria,
 /area/space)
 "rg" = (
 /obj/machinery/disposal/bin,
@@ -82,6 +109,10 @@
 /obj/effect/spawner/structure/window,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"yp" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/space)
 "yv" = (
 /obj/machinery/smartfridge,
 /turf/open/floor/iron/cafeteria,
@@ -92,6 +123,14 @@
 /area/space)
 "zj" = (
 /turf/open/floor/iron/cafeteria,
+/area/space)
+"zW" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/turf/open/floor/wood,
 /area/space)
 "Ar" = (
 /turf/open/floor/wood/large,
@@ -109,10 +148,6 @@
 	name = "Kitchen Cold Room"
 	},
 /turf/open/floor/iron/cafeteria,
-/area/space)
-"BY" = (
-/obj/machinery/icecream_vat,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/space)
 "Cx" = (
 /turf/open/floor/wood,
@@ -164,7 +199,14 @@
 /area/space)
 "FP" = (
 /obj/structure/table/reinforced,
-/turf/open/floor/iron,
+/turf/open/floor/wood,
+/area/space)
+"FV" = (
+/obj/machinery/chem_master/condimaster{
+	desc = "Looks like a knock-off chem-master. Perhaps useful for separating liquids when mixing drinks precisely. Also dispenses condiments.";
+	name = "HoochMaster Deluxe"
+	},
+/turf/open/floor/wood,
 /area/space)
 "HN" = (
 /obj/machinery/biogenerator,
@@ -173,6 +215,10 @@
 "HU" = (
 /obj/machinery/hydroponics/constructable,
 /turf/open/floor/grass,
+/area/space)
+"IA" = (
+/obj/structure/chair/stool/bar/directional/south,
+/turf/open/floor/wood/large,
 /area/space)
 "IZ" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer/on/coldroom,
@@ -187,6 +233,10 @@
 "Ll" = (
 /obj/machinery/vending/dinnerware,
 /turf/open/floor/iron/cafeteria,
+/area/space)
+"Mk" = (
+/obj/structure/reagent_dispensers/beerkeg,
+/turf/open/floor/wood,
 /area/space)
 "NC" = (
 /obj/machinery/griddle,
@@ -206,10 +256,6 @@
 /area/space)
 "Rx" = (
 /turf/open/space/basic,
-/area/space)
-"RB" = (
-/obj/machinery/food_cart,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/space)
 "RC" = (
 /obj/structure/closet/secure_closet/freezer/meat,
@@ -241,13 +287,30 @@
 /obj/machinery/reagentgrinder,
 /turf/open/floor/iron/dark,
 /area/space)
+"Vx" = (
+/obj/machinery/vending/boozeomat,
+/turf/open/floor/wood,
+/area/space)
 "Ws" = (
 /obj/structure/kitchenspike,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/space)
+"WW" = (
+/obj/structure/table,
+/obj/machinery/chem_dispenser/drinks/beer{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/space)
 "Yc" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/space)
+"YQ" = (
+/obj/machinery/door/airlock{
+	name = "Bar"
+	},
+/turf/open/floor/wood,
 /area/space)
 "Zg" = (
 /turf/open/floor/iron/dark/side,
@@ -29432,12 +29495,12 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+UX
+YQ
+YQ
+UX
+UX
+UX
 Rx
 Rx
 Rx
@@ -29688,13 +29751,13 @@ Ar
 Ar
 Ar
 Ar
-Ar
+IA
 FP
-NQ
-NQ
-NQ
-NQ
-NQ
+Cx
+Cx
+zW
+mG
+Cx
 Rx
 Rx
 Rx
@@ -29945,13 +30008,13 @@ Ar
 Ar
 Ar
 Ar
-Ar
+IA
 FP
-NQ
-NQ
-NQ
-NQ
-NQ
+Cx
+Cx
+Vx
+Mk
+Cx
 Rx
 Rx
 Rx
@@ -30202,13 +30265,13 @@ Ar
 Ar
 Ar
 Ar
-Ar
+IA
 FP
-NQ
-NQ
-NQ
-NQ
-NQ
+Cx
+Cx
+kC
+fj
+Cx
 Rx
 Rx
 Rx
@@ -30459,13 +30522,13 @@ Ar
 Ar
 Ar
 Ar
-Ar
+IA
 FP
-NQ
-NQ
-NQ
-NQ
-NQ
+Cx
+Cx
+WW
+yp
+Cx
 Rx
 Rx
 Rx
@@ -30713,16 +30776,16 @@ Ar
 Ar
 Ar
 Ar
-Ar
-Ar
-Ar
-Ar
+lM
+lM
+lM
+IA
 FP
-NQ
-NQ
-NQ
-NQ
-NQ
+Cx
+Cx
+FV
+yp
+Cx
 Rx
 Rx
 Rx
@@ -30969,16 +31032,16 @@ Rx
 Ar
 Ar
 Ar
-Ar
+IA
 sz
 sz
 sz
 sz
-UX
+FP
 Cx
 Cx
-Cx
-Cx
+yp
+yp
 Cx
 Rx
 Rx
@@ -31226,7 +31289,7 @@ Rx
 Ar
 Ar
 Ar
-Ar
+IA
 sz
 zj
 zj
@@ -31482,8 +31545,8 @@ Rx
 Rx
 Ar
 Ar
-Ar
-Ar
+lM
+IA
 sz
 zj
 zj
@@ -32520,7 +32583,7 @@ UX
 kE
 kE
 kE
-BY
+kE
 UX
 Rx
 Rx
@@ -32770,14 +32833,14 @@ DB
 NQ
 Zg
 hT
-zj
+rc
 zj
 zj
 BA
 kE
 Ws
+Ws
 ZS
-RB
 UX
 Rx
 Rx
@@ -33027,7 +33090,7 @@ DB
 NQ
 Zg
 hT
-zj
+oi
 zj
 rg
 UX
@@ -33548,7 +33611,7 @@ zj
 zj
 zj
 zj
-UX
+Dh
 Rx
 Rx
 Rx
@@ -35594,7 +35657,7 @@ UX
 UX
 UX
 UX
-UX
+Dh
 UX
 UX
 UX
