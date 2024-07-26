@@ -21,6 +21,12 @@
 /obj/structure/table/wood,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"ip" = (
+/obj/machinery/door/airlock{
+	name = "Custodial Closet"
+	},
+/turf/open/floor/iron,
+/area/space)
 "jd" = (
 /obj/structure/reagent_dispensers/cooking_oil,
 /turf/open/floor/iron/cafeteria,
@@ -57,6 +63,10 @@
 /obj/machinery/vending/wardrobe/bar_wardrobe,
 /turf/open/floor/wood,
 /area/space)
+"mU" = (
+/obj/machinery/door/window/right/directional/south,
+/turf/open/floor/wood,
+/area/space)
 "oi" = (
 /obj/machinery/food_cart,
 /turf/open/floor/iron/cafeteria,
@@ -89,6 +99,13 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"tx" = (
+/turf/open/floor/plating,
+/area/space)
+"tV" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/iron,
+/area/space)
 "vj" = (
 /obj/structure/table/wood,
 /obj/machinery/door/window/left/directional/east{
@@ -105,12 +122,17 @@
 /obj/machinery/door/airlock/hydroponics/glass,
 /turf/open/floor/iron,
 /area/space)
+"xX" = (
+/obj/structure/closet/secure_closet/hydroponics,
+/turf/open/floor/iron,
+/area/space)
 "yo" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/iron/cafeteria,
 /area/space)
 "yp" = (
-/obj/structure/table/wood,
+/obj/structure/window/spawner/directional/south,
+/obj/structure/table/reinforced,
 /turf/open/floor/wood,
 /area/space)
 "yv" = (
@@ -124,6 +146,12 @@
 "zj" = (
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"zJ" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Service Hallway"
+	},
+/turf/open/floor/iron,
+/area/space)
 "zW" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder{
@@ -134,6 +162,12 @@
 /area/space)
 "Ar" = (
 /turf/open/floor/wood/large,
+/area/space)
+"At" = (
+/obj/machinery/door/airlock{
+	name = "Kitchen"
+	},
+/turf/open/floor/plating,
 /area/space)
 "Az" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
@@ -148,6 +182,12 @@
 	name = "Kitchen Cold Room"
 	},
 /turf/open/floor/iron/cafeteria,
+/area/space)
+"BJ" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Bar"
+	},
+/turf/open/floor/wood/large,
 /area/space)
 "Cx" = (
 /turf/open/floor/wood,
@@ -167,7 +207,7 @@
 /obj/machinery/door/airlock{
 	name = "Kitchen Cold Room"
 	},
-/turf/open/space/basic,
+/turf/open/floor/plating,
 /area/space)
 "Dr" = (
 /obj/machinery/door/airlock{
@@ -254,6 +294,16 @@
 "NQ" = (
 /turf/open/floor/iron,
 /area/space)
+"Pw" = (
+/obj/structure/table/wood,
+/turf/open/floor/iron,
+/area/space)
+"Rs" = (
+/obj/machinery/door/airlock{
+	name = "Hydroponics Backroom"
+	},
+/turf/open/floor/plating,
+/area/space)
 "Rx" = (
 /turf/open/space/basic,
 /area/space)
@@ -271,6 +321,12 @@
 	dir = 8
 	},
 /area/space)
+"SQ" = (
+/obj/machinery/door/airlock{
+	name = "Kitchen"
+	},
+/turf/open/floor/iron/cafeteria,
+/area/space)
 "Tg" = (
 /obj/structure/rack,
 /turf/open/floor/iron/cafeteria,
@@ -278,6 +334,12 @@
 "Uc" = (
 /obj/machinery/deepfryer,
 /turf/open/floor/iron/cafeteria,
+/area/space)
+"Uf" = (
+/obj/machinery/door/airlock{
+	name = "Bar Storage"
+	},
+/turf/open/floor/plating,
 /area/space)
 "UX" = (
 /turf/closed/wall,
@@ -294,6 +356,10 @@
 "Ws" = (
 /obj/structure/kitchenspike,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/space)
+"Wx" = (
+/obj/structure/window/spawner/directional/south,
+/turf/open/floor/wood,
 /area/space)
 "WW" = (
 /obj/structure/table,
@@ -29485,24 +29551,24 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+tV
+tV
+tV
+tV
+tV
+tV
+BJ
+BJ
+tV
+tV
 UX
 YQ
 YQ
 UX
 UX
 UX
-Rx
-Rx
+UX
+tx
 Rx
 Rx
 Rx
@@ -29742,8 +29808,8 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
+tV
+Ar
 Ar
 Ar
 Ar
@@ -29758,8 +29824,8 @@ Cx
 zW
 mG
 Cx
-Rx
-Rx
+UX
+tx
 Rx
 Rx
 Rx
@@ -29999,8 +30065,8 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
+tV
+Ar
 Ar
 Ar
 Ar
@@ -30015,8 +30081,8 @@ Cx
 Vx
 Mk
 Cx
-Rx
-Rx
+Uf
+tx
 Rx
 Rx
 Rx
@@ -30256,8 +30322,8 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
+tV
+Ar
 Ar
 Ar
 Ar
@@ -30272,8 +30338,8 @@ Cx
 kC
 fj
 Cx
-Rx
-Rx
+UX
+tx
 Rx
 Rx
 Rx
@@ -30513,8 +30579,8 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
+tV
+Ar
 Ar
 Ar
 Ar
@@ -30527,10 +30593,10 @@ FP
 Cx
 Cx
 WW
-yp
+FP
 Cx
-Rx
-Rx
+UX
+tx
 Rx
 Rx
 Rx
@@ -30770,8 +30836,8 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
+BJ
+Ar
 Ar
 Ar
 Ar
@@ -30784,10 +30850,10 @@ FP
 Cx
 Cx
 FV
-yp
+FP
 Cx
-Rx
-Rx
+UX
+tx
 Rx
 Rx
 Rx
@@ -31027,8 +31093,8 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
+BJ
+Ar
 Ar
 Ar
 Ar
@@ -31041,10 +31107,10 @@ FP
 Cx
 Cx
 yp
-yp
+FP
 Cx
-Rx
-Rx
+UX
+tx
 Rx
 Rx
 Rx
@@ -31284,8 +31350,8 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
+tV
+Ar
 Ar
 Ar
 Ar
@@ -31297,11 +31363,11 @@ zj
 UX
 Cx
 Cx
+mU
 Cx
 Cx
-Cx
-Rx
-Rx
+UX
+tx
 Rx
 Rx
 Rx
@@ -31541,24 +31607,24 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
+tV
 Ar
 Ar
-lM
+Ar
+Ar
 IA
 sz
 zj
 zj
 zj
+SQ
+Cx
+Cx
+Wx
+Cx
+Cx
 UX
-Cx
-Cx
-Cx
-Cx
-Cx
-Rx
-Rx
+tx
 Rx
 Rx
 Rx
@@ -31793,13 +31859,13 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+UX
+UX
+zJ
+zJ
+UX
+UX
+UX
 UX
 jt
 vj
@@ -31814,8 +31880,8 @@ UX
 UX
 UX
 UX
-Rx
-Rx
+UX
+tx
 Rx
 Rx
 Rx
@@ -32049,14 +32115,14 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+UX
+UX
+NQ
+NQ
+NQ
+NQ
+NQ
+NQ
 UX
 lB
 lB
@@ -32071,8 +32137,8 @@ Az
 Yc
 RC
 UX
-Rx
-Rx
+tx
+tx
 Rx
 Rx
 Rx
@@ -32306,14 +32372,14 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+UX
+NQ
+NQ
+NQ
+NQ
+NQ
+NQ
+NQ
 UX
 HU
 Fh
@@ -32328,7 +32394,7 @@ kE
 kE
 kE
 Dh
-Rx
+tx
 Rx
 Rx
 Rx
@@ -32563,14 +32629,14 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+UX
+NQ
+NQ
+NQ
+NQ
+NQ
+UX
+UX
 UX
 HU
 NQ
@@ -32585,7 +32651,7 @@ kE
 kE
 kE
 UX
-Rx
+tx
 Rx
 Rx
 Rx
@@ -32820,14 +32886,14 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+UX
+NQ
+NQ
+NQ
+NQ
+NQ
+NQ
+NQ
 xt
 DB
 NQ
@@ -32842,7 +32908,7 @@ Ws
 Ws
 ZS
 UX
-Rx
+tx
 Rx
 Rx
 Rx
@@ -33077,14 +33143,14 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+UX
+NQ
+NQ
+NQ
+NQ
+NQ
+NQ
+NQ
 xt
 DB
 NQ
@@ -33099,7 +33165,7 @@ UX
 UX
 UX
 UX
-Rx
+tx
 Rx
 Rx
 Rx
@@ -33334,14 +33400,14 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+UX
+UX
+UX
+ip
+UX
+UX
+UX
+UX
 UX
 HU
 NQ
@@ -33355,8 +33421,8 @@ NP
 Uc
 Uc
 UX
-Rx
-Rx
+tx
+tx
 Rx
 Rx
 Rx
@@ -33591,14 +33657,14 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+UX
+NQ
+NQ
+NQ
+NQ
+NQ
+NQ
+NQ
 UX
 HU
 NQ
@@ -33611,8 +33677,8 @@ zj
 zj
 zj
 zj
-Dh
-Rx
+At
+tx
 Rx
 Rx
 Rx
@@ -33848,14 +33914,14 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+UX
+NQ
+NQ
+NQ
+NQ
+NQ
+NQ
+NQ
 UX
 DB
 NQ
@@ -33869,7 +33935,7 @@ yo
 zj
 jd
 UX
-Rx
+tx
 Rx
 Rx
 Rx
@@ -34105,12 +34171,12 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+UX
+UX
+NQ
+NQ
+NQ
+NQ
 UX
 UX
 UX
@@ -34121,12 +34187,12 @@ Eh
 Eh
 Eh
 Eh
-Eh
+HU
 yo
 zj
 jd
 UX
-Rx
+tx
 Rx
 Rx
 Rx
@@ -34363,11 +34429,11 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+UX
+UX
+UX
+UX
+UX
 UX
 Fy
 Fh
@@ -34383,7 +34449,7 @@ yo
 zj
 zj
 UX
-Rx
+tx
 Rx
 Rx
 Rx
@@ -34620,11 +34686,11 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-NQ
-NQ
-NQ
+UX
+Pw
+xX
+xX
+xX
 UX
 cM
 NQ
@@ -34640,7 +34706,7 @@ yo
 Ll
 NG
 UX
-Rx
+tx
 Rx
 Rx
 Rx
@@ -34877,8 +34943,8 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
+UX
+Pw
 NQ
 NQ
 NQ
@@ -34897,7 +34963,7 @@ UX
 UX
 UX
 UX
-Rx
+tx
 Rx
 Rx
 Rx
@@ -35134,8 +35200,8 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
+UX
+Pw
 NQ
 NQ
 NQ
@@ -35148,13 +35214,13 @@ NQ
 NQ
 Zg
 UX
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+tx
+tx
+tx
+tx
+tx
+tx
+tx
 Rx
 Rx
 Rx
@@ -35391,11 +35457,11 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+UX
+UX
+UX
+Rs
+UX
 UX
 HU
 HU
@@ -35405,7 +35471,7 @@ HU
 HU
 HU
 UX
-Rx
+tx
 Rx
 Rx
 Rx
@@ -35648,11 +35714,11 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+tx
+tx
+tx
+tx
+tx
 UX
 UX
 UX
@@ -35662,7 +35728,7 @@ UX
 UX
 UX
 UX
-Rx
+tx
 Rx
 Rx
 Rx
@@ -35909,17 +35975,17 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+tx
+tx
+tx
+tx
+tx
+tx
+tx
+tx
+tx
+tx
+tx
 Rx
 Rx
 Rx
