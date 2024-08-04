@@ -1,4 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bH" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/north,
+/obj/machinery/power/energy_accumulator/tesla_coil/anchored,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/turf/open/floor/engine,
+/area/space)
 "cx" = (
 /obj/machinery/computer/scan_consolenew{
 	dir = 1
@@ -19,6 +25,13 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/iron/cafeteria,
+/area/space)
+"eD" = (
+/obj/machinery/door/poddoor{
+	name = "Supermatter Chamber Vent";
+	id = "SMChamberDoor"
+	},
+/turf/open/floor/engine,
 /area/space)
 "fj" = (
 /obj/structure/closet/secure_closet/bar,
@@ -45,6 +58,10 @@
 "jt" = (
 /obj/machinery/smartfridge,
 /turf/open/floor/iron/dark,
+/area/space)
+"jL" = (
+/obj/machinery/power/supermatter_crystal/engine,
+/turf/open/floor/engine,
 /area/space)
 "kC" = (
 /obj/structure/table,
@@ -77,6 +94,13 @@
 "mU" = (
 /obj/machinery/door/window/right/directional/south,
 /turf/open/floor/wood,
+/area/space)
+"nB" = (
+/obj/machinery/door/airlock/engineering/glass/critical{
+	heat_proof = 1;
+	name = "Supermatter Chamber"
+	},
+/turf/open/floor/engine,
 /area/space)
 "oi" = (
 /obj/machinery/food_cart,
@@ -114,6 +138,10 @@
 /obj/structure/window/reinforced/spawner/directional/north,
 /turf/open/floor/iron,
 /area/space)
+"ta" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/turf/open/floor/engine,
+/area/space)
 "tc" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark,
@@ -124,6 +152,9 @@
 "tV" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/iron,
+/area/space)
+"uC" = (
+/turf/open/floor/engine,
 /area/space)
 "vj" = (
 /obj/structure/table/wood,
@@ -142,6 +173,11 @@
 "wI" = (
 /obj/machinery/seed_extractor,
 /turf/open/floor/grass,
+/area/space)
+"xi" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/obj/machinery/power/energy_accumulator/grounding_rod/anchored,
+/turf/open/floor/engine,
 /area/space)
 "xt" = (
 /obj/machinery/door/airlock/hydroponics/glass,
@@ -251,6 +287,12 @@
 "Eh" = (
 /turf/open/floor/grass,
 /area/space)
+"Fc" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/north,
+/obj/machinery/power/energy_accumulator/tesla_coil/anchored,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/turf/open/floor/engine,
+/area/space)
 "Fh" = (
 /turf/open/floor/iron/dark/side{
 	dir = 8
@@ -275,6 +317,11 @@
 	name = "HoochMaster Deluxe"
 	},
 /turf/open/floor/wood,
+/area/space)
+"GO" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/obj/machinery/power/energy_accumulator/tesla_coil/anchored,
+/turf/open/floor/engine,
 /area/space)
 "GQ" = (
 /obj/structure/window/reinforced/spawner/directional/south,
@@ -339,6 +386,11 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark,
 /area/space)
+"Nx" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/obj/machinery/power/energy_accumulator/tesla_coil/anchored,
+/turf/open/floor/engine,
+/area/space)
 "NC" = (
 /obj/machinery/griddle,
 /turf/open/floor/iron/cafeteria,
@@ -373,6 +425,11 @@
 "Qn" = (
 /obj/machinery/computer/scan_consolenew,
 /turf/open/floor/iron/dark,
+/area/space)
+"Qp" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/obj/machinery/power/energy_accumulator/grounding_rod/anchored,
+/turf/open/floor/engine,
 /area/space)
 "Ro" = (
 /obj/structure/table/reinforced,
@@ -411,6 +468,10 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"Tc" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/turf/open/floor/engine,
+/area/space)
 "Tg" = (
 /obj/structure/rack,
 /turf/open/floor/iron/cafeteria,
@@ -440,6 +501,13 @@
 "Vx" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/wood,
+/area/space)
+"VE" = (
+/obj/machinery/button/door/directional/west{
+	name = "Supermatter Chamber Vent Control";
+	id = "SMChamberDoor"
+	},
+/turf/open/space/basic,
 /area/space)
 "Ws" = (
 /obj/structure/kitchenspike,
@@ -34064,11 +34132,11 @@ Rx
 Rx
 Rx
 Rx
+xu
 Rx
 Rx
 Rx
-Rx
-Rx
+xu
 Rx
 Rx
 Rx
@@ -34321,14 +34389,14 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+xu
+GO
+Tc
+xi
+xu
+xu
+xu
+xu
 Rx
 Rx
 Rx
@@ -34578,14 +34646,14 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+eD
+uC
+uC
+uC
+bH
+xu
+uC
+xu
 Rx
 Rx
 Rx
@@ -34835,14 +34903,14 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+eD
+uC
+jL
+uC
+uC
+nB
+uC
+nB
 Rx
 Rx
 Rx
@@ -35092,14 +35160,14 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+eD
+uC
+uC
+uC
+Fc
+xu
+uC
+xu
 Rx
 Rx
 Rx
@@ -35349,14 +35417,14 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+xu
+Nx
+ta
+Qp
+xu
+xu
+xu
+xu
 Rx
 Rx
 Rx
@@ -35606,11 +35674,11 @@ Rx
 Rx
 Rx
 Rx
+xu
 Rx
 Rx
 Rx
-Rx
-Rx
+xu
 Rx
 Rx
 Rx
@@ -35867,7 +35935,7 @@ Rx
 Rx
 Rx
 Rx
-Rx
+VE
 Rx
 Rx
 Rx
