@@ -1,4 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"cx" = (
+/obj/machinery/computer/scan_consolenew{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner/directional/south,
+/turf/open/floor/iron/dark,
+/area/space)
 "cM" = (
 /obj/structure/table/wood,
 /turf/open/floor/iron/dark/side{
@@ -16,6 +23,10 @@
 "fj" = (
 /obj/structure/closet/secure_closet/bar,
 /turf/open/floor/wood,
+/area/space)
+"gc" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/turf/open/floor/grass,
 /area/space)
 "hT" = (
 /obj/structure/table/wood,
@@ -99,6 +110,14 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"sY" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/turf/open/floor/iron,
+/area/space)
+"tc" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/dark,
+/area/space)
 "tx" = (
 /turf/open/floor/plating,
 /area/space)
@@ -114,6 +133,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"vN" = (
+/obj/machinery/door/airlock/research{
+	name = "Genetics Lab"
+	},
+/turf/open/floor/iron/white,
+/area/space)
 "wI" = (
 /obj/machinery/seed_extractor,
 /turf/open/floor/grass,
@@ -121,6 +146,9 @@
 "xt" = (
 /obj/machinery/door/airlock/hydroponics/glass,
 /turf/open/floor/iron,
+/area/space)
+"xu" = (
+/turf/closed/wall/r_wall,
 /area/space)
 "xX" = (
 /obj/structure/closet/secure_closet/hydroponics,
@@ -248,6 +276,13 @@
 	},
 /turf/open/floor/wood,
 /area/space)
+"GQ" = (
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/machinery/computer/scan_consolenew{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "HN" = (
 /obj/machinery/biogenerator,
 /turf/open/floor/iron/dark,
@@ -256,13 +291,30 @@
 /obj/machinery/hydroponics/constructable,
 /turf/open/floor/grass,
 /area/space)
+"Id" = (
+/obj/machinery/dna_infuser,
+/turf/open/floor/iron/dark,
+/area/space)
 "IA" = (
 /obj/structure/chair/stool/bar/directional/south,
 /turf/open/floor/wood/large,
 /area/space)
+"IP" = (
+/obj/machinery/dna_scannernew,
+/obj/structure/window/reinforced/spawner/directional/north,
+/turf/open/floor/iron,
+/area/space)
 "IZ" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer/on/coldroom,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/space)
+"Jl" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/machinery/door/window/left/directional/west{
+	name = "Monkey Pen";
+	req_access = list("genetics")
+	},
+/turf/open/floor/grass,
 /area/space)
 "Ju" = (
 /obj/machinery/vending/hydroseeds{
@@ -277,6 +329,15 @@
 "Mk" = (
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/open/floor/wood,
+/area/space)
+"Mz" = (
+/obj/machinery/vending/wardrobe/gene_wardrobe,
+/turf/open/floor/iron/dark,
+/area/space)
+"Nq" = (
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/dark,
 /area/space)
 "NC" = (
 /obj/machinery/griddle,
@@ -294,8 +355,31 @@
 "NQ" = (
 /turf/open/floor/iron,
 /area/space)
+"OY" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/machinery/dna_scannernew,
+/turf/open/floor/iron,
+/area/space)
+"Po" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Genetics Maintenance"
+	},
+/turf/open/floor/plating,
+/area/space)
 "Pw" = (
 /obj/structure/table/wood,
+/turf/open/floor/iron,
+/area/space)
+"Qn" = (
+/obj/machinery/computer/scan_consolenew,
+/turf/open/floor/iron/dark,
+/area/space)
+"Ro" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/left/directional/north{
+	name = "Genetics Desk";
+	req_access = list("genetics")
+	},
 /turf/open/floor/iron,
 /area/space)
 "Rs" = (
@@ -349,6 +433,10 @@
 /obj/machinery/reagentgrinder,
 /turf/open/floor/iron/dark,
 /area/space)
+"Vn" = (
+/obj/machinery/dna_scannernew,
+/turf/open/floor/iron/dark,
+/area/space)
 "Vx" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/wood,
@@ -367,6 +455,11 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
+/area/space)
+"WZ" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/spawner/directional/south,
+/turf/open/floor/iron/dark,
 /area/space)
 "Yc" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
@@ -38832,13 +38925,13 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+xu
+xu
+vN
+xu
+xu
+xu
+xu
 Rx
 Rx
 Rx
@@ -39089,13 +39182,13 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+xu
+Qn
+lB
+lB
+cx
+IP
+NQ
 Rx
 Rx
 Rx
@@ -39346,13 +39439,13 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+xu
+Vn
+lB
+lB
+Nq
+sY
+NQ
 Rx
 Rx
 Rx
@@ -39603,13 +39696,13 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+xu
+tc
+lB
+lB
+GQ
+OY
+NQ
 Rx
 Rx
 Rx
@@ -39857,16 +39950,16 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+xu
+xu
+xu
+xu
+Qn
+lB
+lB
+lB
+Ro
+NQ
 Rx
 Rx
 Rx
@@ -40114,16 +40207,16 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+xu
+Mz
+Id
+WZ
+Vn
+lB
+lB
+tc
+xu
+xu
 Rx
 Rx
 Rx
@@ -40371,15 +40464,15 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+xu
+lB
+lB
+lB
+lB
+lB
+Jl
+gc
+xu
 Rx
 Rx
 Rx
@@ -40628,15 +40721,15 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
-Rx
+xu
+xu
+Po
+xu
+xu
+xu
+Eh
+Eh
+xu
 Rx
 Rx
 Rx
@@ -40890,10 +40983,10 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
+xu
+Eh
+Eh
+xu
 Rx
 Rx
 Rx
@@ -41147,10 +41240,10 @@ Rx
 Rx
 Rx
 Rx
-Rx
-Rx
-Rx
-Rx
+xu
+xu
+xu
+xu
 Rx
 Rx
 Rx
