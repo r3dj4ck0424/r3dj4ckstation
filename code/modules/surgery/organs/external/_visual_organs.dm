@@ -27,7 +27,7 @@ Unlike normal organs, we're actually inside a persons limbs at all times
 	///If not null, overrides the appearance with this sprite accessory datum
 	var/sprite_accessory_override
 
-/**accessory_type is optional if you havent set sprite_datums for the object, and is used mostly to generate sprite_datums from a persons DNA
+/**accessory_type is optional if you haven't set sprite_datums for the object, and is used mostly to generate sprite_datums from a persons DNA
 * For _mob_sprite we make a distinction between "Round Snout" and "round". Round Snout is the name of the sprite datum, while "round" would be part of the sprite
 * I'm sorry
 */
@@ -83,11 +83,10 @@ Unlike normal organs, we're actually inside a persons limbs at all times
 
 	bodypart_overlay.set_appearance(typed_accessory)
 
-	if(owner) //are we in a person?
-		owner.update_body_parts()
-	else if(bodypart_owner) //are we in a limb?
+	if(bodypart_owner) //are we in a limb?
 		bodypart_owner.update_icon_dropped()
-	//else if(use_mob_sprite_as_obj_sprite) //are we out in the world, unprotected by flesh?
+	else if(owner && !(owner.living_flags & STOP_OVERLAY_UPDATE_BODY_PARTS)) //are we a person?
+		owner.update_body_parts()
 
 /obj/item/organ/update_overlays()
 	. = ..()
@@ -262,6 +261,11 @@ Unlike normal organs, we're actually inside a persons limbs at all times
 
 /datum/bodypart_overlay/mutant/antennae/get_base_icon_state()
 	return burnt ? burn_datum.icon_state : sprite_datum.icon_state
+
+/datum/bodypart_overlay/mutant/antennae/can_draw_on_bodypart(mob/living/carbon/human/human)
+	if(!(human.head?.flags_inv & HIDEANTENNAE))
+		return TRUE
+	return FALSE
 
 ///The leafy hair of a podperson
 /obj/item/organ/external/pod_hair

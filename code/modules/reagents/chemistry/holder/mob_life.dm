@@ -40,7 +40,7 @@
 			if(belly)
 				amount += belly.reagents.get_reagent_amount(toxin.type)
 
-			if(amount <= liver_tolerance)
+			if(amount <= liver_tolerance * toxin.liver_tolerance_multiplier)
 				owner.reagents.remove_reagent(toxin.type, toxin.metabolization_rate * owner.metabolism_efficiency * seconds_per_tick)
 				continue
 
@@ -49,7 +49,7 @@
 		// If applicable, calculate any toxin-related liver damage
 		// Note: we have to do this AFTER metabolize_reagent, because we want handle_reagent to run before we make the determination.
 		// The order is really important unfortunately.
-		if(toxin && liver && liver.filterToxins && !HAS_TRAIT(owner, TRAIT_TOXINLOVER))
+		if(toxin && !liverless && liver && liver.filterToxins && !HAS_TRAIT(owner, TRAIT_TOXINLOVER))
 			if(toxin.affected_organ_flags && !(liver.organ_flags & toxin.affected_organ_flags)) //this particular toxin does not affect this type of organ
 				continue
 
